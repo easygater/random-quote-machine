@@ -1,0 +1,104 @@
+/* font-family: 'Indie Flower', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+  /*background-color: #0d3677;*/
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  text-align: center;
+}
+
+.header {
+  margin: 50px 0 50px 0;
+}
+
+.footer {
+  font-size: 10px;
+  margin-top: 50px;
+}
+.footer a {
+  color: #fff;
+}
+
+.quote-text {
+  display: block;
+  padding: 15px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+}
+
+.quote-author {
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 10px 0 30px 0;
+}
+
+.quote-panel {
+  width: 60%;
+  margin: auto;
+}
+
+.buttons {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+button {
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding: 15px 25px;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+button:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: translate(10px, 10px);
+}
+#btn-quote {
+  width: auto;
+}
+
+.fa {
+  padding: 9px;
+  font-size: 28px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.fa:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.fa:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: translate(10px, 10px);
+}
+.fa-twitter {
+  color: white;
+  background-color: transparent;
+}
+.fa-quote-left {
+  margin-right: 15px;
+  position: relative;
+  top: -10px;
+}
